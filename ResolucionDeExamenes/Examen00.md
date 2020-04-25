@@ -10,6 +10,7 @@ Parte 1:
 6-	Abstracción en sistemas de información, significa “aislamiento de un elemento de su contexto o del resto de los elementos que lo acompañan.” 
 
 
+
 Parte 2:
 1-	Los conjuntos no tienen que ser ordenados como las secuencias, sino que los elementos del conjunto tienen que pertenecer a una misma especie y no tiene porque tener un orden creciente o relación matemática, como en una secuencia, que es una de sus principales características. Por ejemplo, el conjunto {a, e, i, o, u}, son de la misma especie (x es una letra vocal), además no tiene por qué estar ordenado, {a, e, i, o, u} = {a, i, e, o, u}. El ejemplo anterior no es valido para Secuencia, no hay un orden, ni una razón o relación matemática.
 2-	“Una secuencia es una serie de elementos que se suceden unos a otros y guardan relación entre sí.”, ahora si nos referimos al concepto matemático, nos referimos a un conjunto ordenado con elementos relacionados por una razón matemática.
