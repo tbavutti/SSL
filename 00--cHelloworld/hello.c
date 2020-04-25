@@ -1,8 +1,16 @@
+ // Hello world!! 
+// Bavutti Tomas
+// 06-04-2020
+
 #include <stdio.h>
 
-int main (){
+int main(void){
 	
-	printf( "Hello world!!");
+	freopen("output.txt", "w", stdout);
+	
+	printf("Hello world!!");
+	
+	fclose(stdout);
 	
 	return 0;
 	
