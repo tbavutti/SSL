@@ -1,5 +1,5 @@
-Tecnologías basadas en el Lenguaje C y que usamos en nuestro
-día a día
+                                Tecnologías basadas en el Lenguaje C y que usamos en nuestro
+                                                        día a día
 
 1-IW engine: es un motor de juego desarrollado por Infinity Ward para videojuegos de disparos en primera persona y que es utilizado en la serie Call of Duty. 
 - ¿Está escrito en C/C++? Si, está escrito en C++
