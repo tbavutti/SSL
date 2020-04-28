@@ -1,6 +1,7 @@
-#TP-2
+# Trabajo #2
 
-##Hello.c
+
+### Hello.c
 
     #include <stdio.h>
  
@@ -11,7 +12,7 @@
     }
 
 
-##Hello.cpp
+## Hello.cpp
 
     #include <iostream>
   
