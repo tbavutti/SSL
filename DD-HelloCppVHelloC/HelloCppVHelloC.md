@@ -1,6 +1,6 @@
-TP #2
+##TP-2
 
-#Hello.c
+##Hello.c
 
     #include <stdio.h>
  
@@ -11,7 +11,7 @@ TP #2
     }
 
 
-#Hello.cpp
+##Hello.cpp
 
     #include <iostream>
   
