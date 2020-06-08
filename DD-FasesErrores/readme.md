@@ -76,7 +76,7 @@ hello4.s, no ensamblar.
 - Sigue siendo legible.
 - Elimina la linea donde estaba "#include <stdio.h>" y "/medio/" pero dije linea, porque por lo que entendi es que en realidad se aplica los archivos de la biblioteca stdio.h al programa.
 
-4- Es el prototipo de la funcion printf. La funcion imprime lo que esta en la posicion de memoria const char *s, y %d es para poder imprimir un entero en base 10 con signo (int).
+4- Es el prototipo de la funcion printf. Pero nosotros estamos invocando prontf. La funcion imprime lo que esta en la posicion de memoria const char *s, y %d es para poder imprimir un entero en base 10 con signo (int).
 
 5- La unica diferencia son los cuatro encabezados en hello3.i.
 
