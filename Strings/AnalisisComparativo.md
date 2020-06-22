@@ -34,7 +34,7 @@ En Haskell: El tipo de dato String es inmutable, porque no se pueden pisar los v
 
 ## f. ¿El tipo es un first class citizen?
 
-En C: No es un first class citizen, ya que no puede ser testeado mediante la igualdad o equidad “==”.
+En C: No es un first class citizen, ya que no puede ser testeado mediante la igualdad o equidad “==”, ya que compararian los punteros y no las cadenas.
 
 En Haskell: Es un first class citizen. Se puede usar como parámetro de una función, puede ser resultado de una función, ser sujeto de una sentencia de asignación y puede ser testeado mediante la equidad o igualdad. 
 
@@ -43,9 +43,18 @@ En Haskell: Es un first class citizen. Se puede usar como parámetro de una func
 En C: Para pasar un String como parámetro de una función se usa un puntero que apunta al primer elemento del array.
 
 En Haskell: Se pasa como parámetro de una función al especificar que va a recibir un String.
+    
+    Ejemplo:
+    
+    Getlength :: String -> Number
+        
 
 ## h. ¿Y cuando son retornados por una función?
 
 En C: Un String puede ser retornado por una función mediante un puntero que apunta a un espacio de memoria, donde se almacena el resultado. 
 
 En Haskell: Funciona de la misma manera que pasarlo como argumento, en vez de marcar que lo que va a recibir, especifico que me va a devolver un String. 
+
+     Ejemplo:
+     
+     sumarString :: String -> String -> String
