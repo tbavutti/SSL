@@ -67,7 +67,7 @@ El programa que prueba la biblioteca, por supuesto, incluye a "String.h", pero s
 
 3. Tipos. 
 
-#Tareas
+## Tareas
 
 Parte I
 
@@ -104,15 +104,9 @@ c. Por cada operación:
       DD-Strings
       
       |-- readme.md
-      
       |-- AnálisisComparativo.md
-      
       |-- String.md
-      
       |-- Makefile
-      
       |-- StringTest.c
-      
-      |-- String.h
-      
+      |-- String.
       |-- String.c.
