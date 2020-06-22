@@ -1,4 +1,4 @@
-##8 - Operaciones de Strings
+# 8 - Operaciones de Strings
 
 Transcripción del enunciado:
 
@@ -8,7 +8,7 @@ El análisis comparativo es sobre el tipo de dato String en el lenguaje deprogra
 
 Investigue  y  construya,  en  LENGUAJE  C,  la  función  que  realiza  cadaoperación solicitada:
 
-#**Ejercicio 20**
+## **Ejercicio 20**
 
   a. Calcula la longitud de una cadena;
 
@@ -18,9 +18,9 @@ Investigue  y  construya,  en  LENGUAJE  C,  la  función  que  realiza  cadaope
   
   Construya un programa de testeo para cada función del ejercicio anterior.
 
-#Objetivos
+## Objetivos
 
-#Parte I — Análisis Comparativo del tipo String en Lenguajes de Programación:
+Parte I — Análisis Comparativo del tipo String en Lenguajes de Programación:
 Realizar un análisis comparativo de dato String en el lenguaje C versus unlenguaje de programación a elección. El análisis debe contener, por lo menos,los siguientes ítems:
 
 a. ¿El tipo es parte del lenguaje en algún nivel?
@@ -41,7 +41,7 @@ h. ¿Y cuando son retornados por una función?
 
 Las anteriores preguntas son disparadores para realizar una análisis profundo.
 
-#Parte II — Biblioteca para el Tipo String:
+Parte II — Biblioteca para el Tipo String:
 
 Desarrollar una biblioteca con lassiguientes operaciones de strings:
 
@@ -59,7 +59,7 @@ La parte pública de la biblioteca se desarrolla en el header "String.h", el cua
 
 El programa que prueba la biblioteca, por supuesto, incluye a "String.h", pero sí puede incluir <string.h> para facilitar las comparaciones.
 
-#Temas
+## Temas
 
 1. Strings.
 
@@ -89,22 +89,30 @@ c. Por cada operación:
  
  4. Escribir las implementaciones en Strings.c.
  
-Restricciones
+## Restricciones
 
-Las pruebas deben utilizar assert.
+-Las pruebas deben utilizar assert.
 
-Los proptotipos deben utilizar const cuando corresponde.
+-Los proptotipos deben utilizar const cuando corresponde.
 
-Por lo menos una operación debe implementarse con recursividad.
+-Por lo menos una operación debe implementarse con recursividad.
 
-Las implementaciones no deben utilizar funciones estándar, declaradas en<string.h>
+-Las implementaciones no deben utilizar funciones estándar, declaradas en<string.h>
 
-Productos
-  DD-Strings
-  |-- readme.md
-  |-- AnálisisComparativo.md
-  |-- String.md
-  |-- Makefile
-  |-- StringTest.c
-  |-- String.h
-  |-- String.c.
+## Productos
+     
+      DD-Strings
+      
+      |-- readme.md
+      
+      |-- AnálisisComparativo.md
+      
+      |-- String.md
+      
+      |-- Makefile
+      
+      |-- StringTest.c
+      
+      |-- String.h
+      
+      |-- String.c.
