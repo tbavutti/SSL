@@ -1,4 +1,4 @@
-Parte II
+# Parte II
 
 a. Para cada operación, escribir en Strings.md la especificación matemática
 de la operación, con conjuntos de salida y de llegada, y con especificación
