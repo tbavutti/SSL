@@ -1,6 +1,6 @@
 /*
 
-Test de funciones definidas en String.c
+Test de funciones definidas en String.c:
 
 */
 
