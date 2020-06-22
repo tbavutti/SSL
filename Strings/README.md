@@ -43,7 +43,7 @@ Las anteriores preguntas son disparadores para realizar una análisis profundo.
 
 Parte II — Biblioteca para el Tipo String:
 
-Desarrollar una biblioteca con lassiguientes operaciones de strings:
+Desarrollar una biblioteca con las siguientes operaciones de strings:
 
   a. GetLength ó GetLongitud
 
