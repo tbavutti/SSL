@@ -4,7 +4,7 @@ a. Para cada operación, escribir en Strings.md la especificación matemática
 de la operación, con conjuntos de salida y de llegada, y con especificación
 de la operación.
 
-[1]Getlength:
+## [1]Getlength:
 
     Epsilon* -> N    0eN;
 
@@ -16,7 +16,7 @@ Donde el conjunto de salida es una Clausura de Kleene y el conjunto de llegada s
     Getlength() -> 0
     Getlength(qwe) -> 3
 
-[2]IsEmpty:
+## [2]IsEmpty:
 
     Epsilon* -> Bool 
 
@@ -27,7 +27,7 @@ Donde el conjunto de salida es una Clausura de Kleene y el conjunto de llegada e
     IsEmpty() -> True
     IsEmpty(String) -> False
 
-[3]Power:
+## [3]Power:
 
     Epsilon* x N -> Epsilon*
 
@@ -39,7 +39,7 @@ Donde el conjunto de salida es una Clausura de Kleene y los numeros naturales in
     Power(asd, 0) -> λ
     Power(qweee, 2) -> qweeeqweee
 
-[4]SonIguales:
+## [4]SonIguales:
 
     Epsilon* x Epsilon* -> Bool
 
