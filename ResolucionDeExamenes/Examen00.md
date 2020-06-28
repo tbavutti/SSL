@@ -11,7 +11,7 @@ Parte 1:
 
 4-Las asignaturas del área de sistemas de información son sistemas y organizaciones, análisis de sistemas, diseño de sistemas, gestión de datos, teoría de control, redes de información, investigación operativa y sistemas de gestión. 
 
-5-Un paradigma funcional fue aplicado el primer año de la carrera, ya que la mayoría de los programas hechos en clase estaban compuestos de funciones, con datos de entrada y valores de salida.
+5-Un paradigma orientada a objetos o imperativa de multiplefuncion.
 
 6-Abstracción en sistemas de información, significa “aislamiento de un elemento de su contexto o del resto de los elementos que lo acompañan.” 
 
