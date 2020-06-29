@@ -8,6 +8,20 @@ Test de funciones definidas en String.c:
 #include <assert.h>
 #include <string.h>
 
+
+int main(void){
+    
+    TestGetLength();
+    
+    TestIsEmpty();
+    
+    TestPower();
+
+    TestSonIguales();
+
+    printf("FUNCIONA\n");
+}
+
 void TestGetLength() {
 
     //cadena de caracteres con longitud 5
@@ -62,15 +76,3 @@ void TestSonIguales(){
 }
 
 
-int main(void){
-    
-    TestGetLength();
-    
-    TestIsEmpty();
-    
-    TestPower();
-
-    TestSonIguales();
-
-    printf("FUNCIONA\n");
-}
