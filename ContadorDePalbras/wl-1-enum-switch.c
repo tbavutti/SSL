@@ -25,8 +25,8 @@ State s = OUT;
 		default:
 			switch(s){
 	        
-	        case IN:
-	        	s = IN;
+	                case IN:
+	        	        s = IN;
 		 		putchar(c);
 		 		break;
 		 	case OUT:
