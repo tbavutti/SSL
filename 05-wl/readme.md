@@ -10,10 +10,5 @@ Problema: Imprimir cada palabra de la entrada en su propia línea. La cantidad d
 
 • Implementar máquinas de estado con diferentes métodos.
 
-## 10.2. Temas
+## Respuestas:
 
-• Árboles de expresión.
-
-• Representación de máquinas de estado.
-
-• Implementación de máquinas de estado.
