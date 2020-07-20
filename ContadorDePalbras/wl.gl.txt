@@ -1,0 +1,8 @@
+diagraph wl.gl {
+nodo0 = [ label = "IN"];
+nodo1 = [label = "OUT"];
+nodo0 -> nodo0 [label = " 'A...Z' || 'a...z'"];
+nodo1 -> nodo1 [label = "'\t'||'\n'||''"];
+nodo0 -> nodo1 [label = "'\t'||'\n'||''"];
+nodo1 -> nodo0 [label = " 'A...Z' || 'a...z'"];
+}
