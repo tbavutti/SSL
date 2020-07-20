@@ -12,3 +12,12 @@ Problema: Imprimir cada palabra de la entrada en su propia línea. La cantidad d
 
 ## Respuestas:
 
+1B- Implementar
+
+1C- Implementar
+
+### 2.Maquina de estado:
+
+A- Implementar
+
+B- 
