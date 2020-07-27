@@ -1,17 +1,10 @@
-digraph 1B {
-nodo0 = [label = "="];
-nodo1 = [label = "nl"];
-nodo0 -> nodo1;
-nodo2 = [label = "="];
-nodo0 -> nodo2;
-nodo3 = [label = "nw"];
-nodo2 -> nodo3;
-nodo4 = [label = "="];
-nodo2 -> nodo4;
-nodo5 = [label = "nc"];
-nodo4 -> nodo5;
-nodo6 = [label = "0"];
-nodo4 -> nodo6;
+digraph {
+a [label = "="]
+b [label = "="]
+c [label = "="]
+a -> nl 
+a -> b -> c
+b -> nw
+c -> nc
+c -> 0
 }
-
-
