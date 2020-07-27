@@ -1,10 +1,10 @@
 digraph {
 a [label = "="]
-b [label = "="]
-c [label = "="]
 a -> nl 
-a -> b -> c
+b [label = "="]
 b -> nw
+c [label = "="]
+a -> b -> c
 c -> nc
 c -> 0
 }
