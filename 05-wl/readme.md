@@ -42,7 +42,14 @@ Tomando en cuenta el Vol 3 capitulo 1, el arbol se puede formalizar como un 5-up
 
 ### 3. Implementaciones de Máquinas de Estado:
 
+#### Implementacion #1: Una variable para el estado actual.
 
+
+
+
+#### Implementacion #2: Sentencias goto.
+
+#### Implementacion #3: Funciones Recursivas.
 
 
 
