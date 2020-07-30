@@ -14,8 +14,9 @@ Problema: Imprimir cada palabra de la entrada en su propia línea. La cantidad d
 
 ### 1.Arboles de expresion: 
 
+1B- nl = nw = nc = 0.
 
-
+![alt text](https://github.com/tbavutti/SSL/blob/master/05-wl/Digraph1B.svg)
 
 
 1C- Implementar
