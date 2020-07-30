@@ -24,7 +24,7 @@ Problema: Imprimir cada palabra de la entrada en su propia línea. La cantidad d
 
 ### 2. Maquina de estado:
 
-B- Formalizar la máquina de estados como una n-upla:
+#### Formalizar la máquina de estados como una n-upla:
 
 Tomando en cuenta el Vol 3 capitulo 1, el arbol se puede formalizar como un 5-upla (Q, Sigma, T, Q0, F), donde:
 
