@@ -14,12 +14,13 @@ Problema: Imprimir cada palabra de la entrada en su propia línea. La cantidad d
 
 ### 1.Arboles de expresion: 
 
-1B- nl = nw = nc = 0.
+1B- Arbol: nl = nw = nc = 0
 
 ![alt text](https://github.com/tbavutti/SSL/blob/master/05-wl/Digraph1B.svg)
 
+1C- Arbol: c == ' ' || c == '\n' || c == '\t'
 
-1C- Implementar
+![alt text](https://github.com/tbavutti/SSL/blob/master/05-wl/Digraph1C.svg)
 
 ### 2.Maquina de estado:
 
