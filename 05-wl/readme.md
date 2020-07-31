@@ -44,6 +44,14 @@ Tomando en cuenta el Vol 3 capitulo 1, el arbol se puede formalizar como un 5-up
 
 #### Implementacion #1: Una variable para el estado actual.
 
+Indicar ventajas y desventajas de la versión de [KR1988] y de esta implementción:
+
+| | Ventajas | Desventajas|
+| ------------- | ------------- | ------------- |
+| typedef y enum para los estados posibles |   |   |
+   y switch                       
+| define para los estados posibles y if    |   |   |
+
 
 
 
