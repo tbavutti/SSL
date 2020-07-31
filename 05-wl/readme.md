@@ -48,8 +48,7 @@ Indicar ventajas y desventajas de la versi√≥n de [KR1988] y de esta implementci√
 
 | | Ventajas | Desventajas|
 | ------------- | ------------- | ------------- |
-| typedef y enum para los estados posibles |   |   |
-|   y switch                               | 
+| typedef y enum para los estados posibles y switch. |   |   |                                 
 | define para los estados posibles y if    |   |   |
 
 
