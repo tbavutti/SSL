@@ -48,8 +48,8 @@ Indicar ventajas y desventajas de la versi√≥n de [KR1988] y de esta implementci√
 
 | | Ventajas | Desventajas|
 | ------------- | ------------- | ------------- |
-| typedef y enum para los estados posibles y switch. | Una de las grandes ventajas, a diferencia de define que no es conocido por c, es que enum puede seguir reglas de ambito normales y los valores se generan automaticamente, al ser parte del lenguaje c.  | En lo personal, creo que hay mucha repeticion de logico, por lo que desde el punto e vista pragmatico puede ser engorroso. |                                 
-| define para los estados posibles y if    | Al no ser parte de c, no se toman en cuenta variables, seria com un editor de texto, por lo que el reemplazo de informacion se hace mas facil.  | defines son mas complicados de localizar, no forma parte del lenguaje c, es una palabra clave del pre- procesador. Esto en consecuencia trae muchos problemas dificiles de detectar |
+| typedef y enum para los estados posibles y switch. | Una de las grandes ventajas, a diferencia de define que no es conocido por c, es que enum puede seguir reglas de ambito normales y los valores se generan automaticamente, al ser parte del lenguaje c. Ademas, switch tiene mejor rendimiento frente if, ya que el tiempo necesario para realizar el swtich es independiente del numero de casos que tenga.  | En lo personal, creo que hay mucha repeticion de logica, por lo que desde el punto e vista pragmatico puede ser engorroso. |                                 
+| define para los estados posibles y if    | Al no ser parte de c, no se toman en cuenta variables, seria como un editor de texto, por lo que el reemplazo de informacion se hace mas facil.  | defines son mas complicados de localizar, no forma parte del lenguaje c, es una palabra clave del pre- procesador. Esto en consecuencia trae muchos problemas dificiles de detectar |
 
 
 
