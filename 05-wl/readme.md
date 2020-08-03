@@ -56,7 +56,7 @@ Indicar ventajas y desventajas de la versión de [KR1988] y de esta implementci�
 
 Responder en readme.md: ¿Tiene alguna aplicación go to hoy en día?¿Algún lenguaje moderno lo utiliza?
 
-El GOTO no es muy popular, pero tampoco tan odiado como antes, en 1968 Edsger Dijkstra argumento que en lenguajes de alto nivel, estas declaraciones debian ser abolidas ya que complicaban la tarea de analizar y verificar la exactitud de los programas. Pero mas tarde, en el libro de Kernighan y Ritchie abalan su uso indicando ventajas como que es infinitamente usable, como tambien Linus Torvalds dijo que ser una característica del lenguaje útil, mejorar la velocidad de programa, el tamaño y la claridad del código cuando es usado por el programador correcto. Hoy en dia, GOTO puede ser usado en C, C++ y Kernel delinux, ademas forma parte de java siendo una palabra reservada pero sin poder ser usada.
+El GOTO no es muy popular, pero tampoco tan odiado como antes, en 1968 Edsger Dijkstra argumento que en lenguajes de alto nivel, estas declaraciones debian ser abolidas ya que complicaban la tarea de analizar y verificar la exactitud de los programas. Pero mas tarde, en el libro de Kernighan y Ritchie abalan su uso indicando ventajas como que es infinitamente usable, como tambien Linus Torvalds dijo que las declaraciones pueden ser una característica del lenguaje útil, mejorar la velocidad de programa, el tamaño y la claridad del código cuando es usado por el programador correcto. Hoy en dia, GOTO puede ser usado en C, C++ y Kernel delinux, ademas forma parte de java siendo una palabra reservada pero sin poder ser usada.
 
 #### Implementacion #3: Funciones Recursivas.
 
