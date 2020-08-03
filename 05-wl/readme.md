@@ -52,9 +52,11 @@ Indicar ventajas y desventajas de la versión de [KR1988] y de esta implementci�
 | define para los estados posibles y if    | Al no ser parte de c, no se toman en cuenta variables, seria como un editor de texto, por lo que el reemplazo de informacion se hace mas facil.  | defines son mas complicados de localizar, no forma parte del lenguaje c, es una palabra clave del pre- procesador. Esto en consecuencia trae muchos problemas dificiles de detectar |
 
 
-
-
 #### Implementacion #2: Sentencias goto.
+
+Responder en readme.md: ¿Tiene alguna aplicación go to hoy en día?¿Algún lenguaje moderno lo utiliza?
+
+El GOTO no es muy popular, pero tampoco tan odiado como antes, en 1968 Edsger Dijkstra argumento que en lenguajes de alto nivel, estas declaraciones debian ser abolidas ya que complicaban la tarea de analizar y verificar la exactitud de los programas. Pero mas tarde, en el libro de Kernighan y Ritchie abalan su uso indicando ventajas como que es infinitamente usable, como tambien Linus Torvalds dijo que ser una característica del lenguaje útil, mejorar la velocidad de programa, el tamaño y la claridad del código cuando es usado por el programador correcto. Hoy en dia, GOTO puede ser usado en C, C++ y Kernel delinux, ademas forma parte de java siendo una palabra reservada pero sin poder ser usada.
 
 #### Implementacion #3: Funciones Recursivas.
 
