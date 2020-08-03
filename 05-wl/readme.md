@@ -62,6 +62,6 @@ El GOTO no es muy popular, pero tampoco tan odiado como antes, en 1968 Edsger Di
 
 ¿Es necesario que las funciones accedan a a contadores? Si es así, ¿cómo hacerlo?.
 
-Si tomamos la variable c como un contador, entonces si, donde n depende de un estado en particular, sino que cambia segun la posicion de c. Cuando se encuentra en Out, el contaodr cumple la funcion de ser un espacio en blaco, un salto de linea o tabulacion. Caso contrario, es un caracter en el estado In.
+Si tomamos la variable c como un contador, entonces si, donde n no depende de un estado en particular, sino que cambia segun la posicion de c. Cuando se encuentra en Out, el contaodr cumple la funcion de ser un espacio en blaco, un salto de linea o tabulacion. Caso contrario, es un caracter en el estado In.
 
 
