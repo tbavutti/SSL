@@ -105,18 +105,25 @@ DD-CalcInfManual
 
 ## Gramatica lexica
 
-    <Token> -> Tipo
+La idea de la gramatica es definir los tokens que seran usados en el Scanner:
 
-    <+/*> -> Operador
+    <Lexema> -> Token
 
-    <Letras> -> Identificador
+    <+/*> -> Operador 
 
-    <{}> | <;> | <()> -> Simbolo de puntuacion
-
-    <:=> -> Asignacion
+    <Letras> -> Identificador 
 
     <NumeroBaseDiez> -> Constante
 
+    <:=> -> Asignacion
+
+    <EstadoInicial> -> EI
+
+    <FinDeTexto> -> FDT
+
+    <Error> -> TOKENINVALIDO
+
+    <'\n'/'\t'> -> SDP
 
 ## Gramatica Sintactica
 
@@ -124,5 +131,5 @@ DD-CalcInfManual
     <listaExpresiones> -> <expresion> -> {<expresion>}
     <expresion> -> <asignacion> | <operacion>
     <asignacion> -> <identificador> := <constante>
-    <operacion> -> <constante> <operador> (<expresion>)
+    <operacion> -> <constante> <operador> <expresion>
      
