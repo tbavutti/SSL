@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "Scanner.h"
+#include <ctype.h>
 
-int main(){
-    GetNextToken();
-    return 0;
-}
 
 TOKEN GetNextToken(){
     
@@ -36,16 +33,7 @@ TOKEN GetNextToken(){
 
 }
 
-bool esSDP(int t){
-    if(t == ' '){
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-    
-}
+
 
 bool esOperador(int t){
     if(t == '+' || t == '*'){
@@ -66,7 +54,7 @@ bool esFDT(int t){
 }
 
 bool esConstante(int t){
-    if(t == '0' || t == '1' || t == '2' || t == '3' || t == '4' || t == '5' || t =='6' || t == '7' || t == '8' || t == '9'){
+    if(isdigit(t)){
         return true;
     }
     else{
@@ -75,7 +63,7 @@ bool esConstante(int t){
 }
 
 bool esIdentificador(int t){
-    if(t == 'a' | 'b' | 'c' | 'A' | 'B' | 'C'){
+    if(isalpha(t)){
         return true;
     }
     else{
@@ -90,7 +78,7 @@ void imprimirToken(){
     t = getchar();
     if(esOperador(t) || esIdentificador(t) || esConstante(t)){
         ungetc(t, stdin);
-        return;
+        return t;
     }
 }
 

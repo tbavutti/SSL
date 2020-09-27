@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-
+#include <ctype.h>
 
 typedef enum TOKENS{
     OPERADOR,
@@ -9,16 +9,16 @@ typedef enum TOKENS{
     EI,
     FDT,
     ASIGNACION,
-    TOKENINVALIDO
+    TOKENINVALIDO,
+    INICIAL
 } TOKEN;
 
 TOKEN GetNextToken();
 void errorLexico();
-bool esOperador();
-bool esIdentificador();
-bool esConstante(const int t); 
-bool esFDT();
-bool esSDP();
+bool esOperador(const int);
+bool esIdentificador(const int);
+bool esConstante(const int); 
+bool esFDT(const int);
 void imprimirToken();   
 
 
