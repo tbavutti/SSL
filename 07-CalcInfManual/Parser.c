@@ -7,7 +7,7 @@
 #include "TablaDeSimbolos.h" 
 
 int resultado = 0;
-int Error = 0;
+
 
 void Programa();
 void ListaSentencia();
