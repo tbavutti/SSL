@@ -30,27 +30,27 @@ Los espacios en blanco se ignoran, asi como la tabulacion.
 ### Gramática léxica:
 
   
-<token> -> uno de <identificador> <constante> <suma> <multiplicacion> <evaluacion> <asignacion> <parentesis_izq> <parentesis_der>
+    <token> -> uno de <identificador> <constante> <suma> <multiplicacion> <evaluacion> <asignacion> <parentesis_izq> <parentesis_der>
 
-<identificador> -> <letra> { <letra> }
+    <identificador> -> <letra> { <letra> }
 
-<constante> -> <dígito> { <dígito> }
+    <constante> -> <dígito> { <dígito> }
 
-<suma> -> + 
+    <suma> -> + 
 
-<multiplicacion> -> *
+    <multiplicacion> -> *
 
-<evaluacion> -> $
+    <evaluacion> -> $
 
-<asignacion> -> =
+    <asignacion> -> =
 
-<letra> -> una de a-z A-Z
+    <letra> -> una de a-z A-Z
 
-<dígito> -> uno de 0-9
+    <dígito> -> uno de 0-9
 
-<parentesis_izq> -> (
+    <parentesis_izq> -> (
 
-<parentesis_der> -> )
+    <parentesis_der> -> )
 
 
 ## Nivel Sintactico:
@@ -59,19 +59,19 @@ Los espacios en blanco se ignoran, asi como la tabulacion.
 ### Gramatica Sintactica:
 
 
-<parser> -> <programa> 
+    <parser> -> <programa> 
 
-<programa> -> <listaSentencias> FDT
+    <programa> -> <listaSentencias> FDT
 
-<listaSentencia> -> <sentencia> { <sentencia>}
+    <listaSentencia> -> <sentencia> { <sentencia>}
 
-<sentencia> -> <sentencia> <identificador> <asigancion> <constante> | <evaluacion> <expresion>
+    <sentencia> -> <sentencia> <identificador> <asigancion> <constante> | <evaluacion> <expresion>
 
-<expresion> -> <termino> | <expresion> + <termino>
+    <expresion> -> <termino> | <expresion> + <termino>
 
-<termino> -> <factor> | <termino> + <factor> 
+    <termino> -> <factor> | <termino> + <factor> 
 
-<factor> -> <constante> | <identificador> | (expresion)
+    <factor> -> <constante> | <identificador> | (expresion)
 
 
 #### Aclaraciones:
